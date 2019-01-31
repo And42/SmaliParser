@@ -1,0 +1,3 @@
+[submodule "LongPaths"]
+	path = LongPaths
+	url = git@github.com:And42/LongPaths.git
