@@ -43,23 +43,21 @@
     </AssemblyOriginatorKeyFile>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="LongPaths, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Libraries\LongPaths.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Utils.cs" />
-    <Compile Include="GlobalConstants.cs" />
+    <Compile Include="Logic\Utils.cs" />
+    <Compile Include="Logic\GlobalConstants.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="SmaliAnnotation.cs" />
-    <Compile Include="SmaliClass.cs" />
-    <Compile Include="SmaliField.cs" />
-    <Compile Include="SmaliMethod.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="LongPaths\LongPaths\LongPaths.csproj">
-      <Project>{593a2d73-7513-498e-8f8a-554742c92ed7}</Project>
-      <Name>LongPaths</Name>
-    </ProjectReference>
+    <Compile Include="Logic\SmaliAnnotation.cs" />
+    <Compile Include="Logic\SmaliClass.cs" />
+    <Compile Include="Logic\SmaliField.cs" />
+    <Compile Include="Logic\SmaliMethod.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

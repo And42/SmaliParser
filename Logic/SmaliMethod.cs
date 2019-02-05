@@ -3,9 +3,10 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Text;
+
 // ReSharper disable PossibleNullReferenceException
 
-namespace SmaliParser
+namespace SmaliParser.Logic
 {
     /// <summary>
     /// Класс одного smali метода

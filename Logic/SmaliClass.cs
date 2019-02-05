@@ -7,7 +7,7 @@ using LongPaths.Logic;
 
 // ReSharper disable PossibleNullReferenceException
 
-namespace SmaliParser
+namespace SmaliParser.Logic
 {
     /// <summary>
     /// Класс одного smali класса

@@ -1,4 +1,4 @@
-﻿namespace SmaliParser
+﻿namespace SmaliParser.Logic
 {
     internal static class GlobalConstants
     {

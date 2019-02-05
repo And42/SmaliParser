@@ -2,9 +2,8 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
-using static System.String;
 
-namespace SmaliParser
+namespace SmaliParser.Logic
 {
     /// <summary>
     /// Класс аннотации smali файла
@@ -62,7 +61,7 @@ namespace SmaliParser
         /// <filterpriority>2</filterpriority>
         public override string ToString()
         {
-            return Join("\n", Body) +"\n";
+            return String.Join("\n", Body) +"\n";
         }
     }
 }
