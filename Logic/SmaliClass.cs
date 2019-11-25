@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Text;
-using LongPaths.Logic;
 
 // ReSharper disable PossibleNullReferenceException
 
@@ -61,7 +60,7 @@ namespace SmaliParser.Logic
         /// <exception cref="FileNotFoundException">Файл не найден</exception>
         public static SmaliClass ParseFile(string fileName)
         {
-            if (!LFile.Exists(fileName))
+            if (!File.Exists(fileName))
                 throw new FileNotFoundException(nameof(fileName));
 
             using (StreamReader reader = new StreamReader(fileName, new UTF8Encoding(false)))
@@ -211,7 +210,7 @@ namespace SmaliParser.Logic
         /// <param name="pathToFile">Файл</param>
         public void Save(string pathToFile)
         {
-            LFile.WriteAllText(pathToFile, ToString(), new UTF8Encoding(false));
+            File.WriteAllText(pathToFile, ToString(), new UTF8Encoding(false));
         }
 
         /// <summary>

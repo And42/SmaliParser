@@ -43,10 +43,6 @@
     </AssemblyOriginatorKeyFile>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="LongPaths, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>Libraries\LongPaths.dll</HintPath>
-    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
   </ItemGroup>
@@ -60,17 +56,7 @@
     <Compile Include="Logic\SmaliMethod.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Libraries\AlphaFS.dll" />
-    <Content Include="Libraries\AlphaFS.pdb" />
-    <Content Include="Libraries\JetBrains.Annotations.dll" />
-    <Content Include="Libraries\LongPaths.dll" />
-    <Content Include="Libraries\LongPaths.pdb" />
-    <Content Include="Libraries\zzz_dependencies.txt" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include=".gitignore" />
-    <None Include="Libraries\zzz_refresh_references.ps1" />
-    <None Include="Libraries\zzz_refresh_references_pause.ps1" />
     <None Include="LICENSE" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
