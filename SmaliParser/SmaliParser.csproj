@@ -10,6 +10,7 @@
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <PackageProjectUrl>https://github.com/And42/SmaliParser</PackageProjectUrl>
     <RepositoryUrl>https://github.com/And42/SmaliParser</RepositoryUrl>
+    <Authors>Andrey Skobtsov</Authors>
   </PropertyGroup>
 
 </Project>
