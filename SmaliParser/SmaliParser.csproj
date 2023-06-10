@@ -11,6 +11,10 @@
     <PackageProjectUrl>https://github.com/And42/SmaliParser</PackageProjectUrl>
     <RepositoryUrl>https://github.com/And42/SmaliParser</RepositoryUrl>
     <Authors>Andrey Skobtsov</Authors>
+    <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Include="../LICENSE.txt" Pack="true" PackagePath="" />
+  </ItemGroup>
 </Project>
