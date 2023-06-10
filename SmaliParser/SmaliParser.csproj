@@ -4,9 +4,9 @@
     <TargetFramework>netstandard2.0</TargetFramework>
     <Description>Library for parsing smali files</Description>
     <Copyright>Andrey Skobtsov</Copyright>
-    <AssemblyVersion>1.4.1.0</AssemblyVersion>
-    <FileVersion>1.4.1.0</FileVersion>
-    <Version>1.4.1.0</Version>
+    <AssemblyVersion>1.4.1.1</AssemblyVersion>
+    <FileVersion>1.4.1.1</FileVersion>
+    <Version>1.4.1.1</Version>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <PackageProjectUrl>https://github.com/And42/SmaliParser</PackageProjectUrl>
     <RepositoryUrl>https://github.com/And42/SmaliParser</RepositoryUrl>
